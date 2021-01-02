@@ -238,8 +238,8 @@ theme = "aafu"
               various statistical analyses in R. I start off by explaining basic \
               programming concepts, packages and libraries, how to read and write files, \
               and data summarizing and formatting. I then provide examples of how to create \
-              various statistical models form the general linear model framework in R, \
-              and in the summer of 2021 I hope to extend this guidebook to include \
+              various statistical models from the general linear model framework in R, \
+              and in the summer of 2021 I plan on extending this guidebook to include \
               generalized- and generalized linear mixed model frameworks. 
               """
         [[params.project.list]]
