@@ -88,7 +88,7 @@ theme = "aafu"
           \n \
           Passionate about applying my domain \
           knowledge of Kinesiology to produce data-driven solutions and \
-          insights, especially in the areas of rehabilitation informatics \
+          insights, especially in the areas of clinical informatics \
           and sport performance. \
           """
 
@@ -112,7 +112,7 @@ theme = "aafu"
               """
               
         [[params.experience.list]]
-            position = "Exercise Specialist"
+            position = "Exercise Specialist (Part-time)"
             dates = "Jan. 2019 - *Present*"
             link = "https://healthcare.utah.edu/"
             company = "University of Utah Health"
@@ -124,8 +124,8 @@ theme = "aafu"
               """
             
         [[params.experience.list]]
-            position = "Research Assistant—Physical Activity Research Lab"
-            dates = "2018 - 2019"
+            position = "Research Assistant—Physical Activity Research Lab (Part-time)"
+            dates = "Fall 2018 - Fall 2019"
             link = "https://health.utah.edu/health-kinesiology/graduate-programs/physical-activity-well-being"
             company = "University of Utah"
             details = """\
@@ -133,10 +133,21 @@ theme = "aafu"
               * Collected and analyzed physiological data from a metabolic cart \n  \
               * Efficiently organized subject data using Excel spreadsheets \
               """
-
+        [[params.experience.list]]
+            position = "Volunteer Research Assistant—Human Genetics Lab"
+            dates = "Spring 2018 - Winter 2018"
+            link = "https://health.utah.edu/health-kinesiology/graduate-programs/physical-activity-well-being"
+            company = "University of Utah"
+            details = """\
+              * Studied the Foxn3 gene and its effects on hepatic glucose utilization  \n \
+              * Learned and applied western blotting and PCR protocols \n  \
+              * Statistically analyzed collected lab samples in Excel (e.g., t-test) \n  \
+              * Demonstrated the ability to quickly learn new skills and solve complex problems \
+              """
+              
         [[params.experience.list]]
             position = "Exercise Physiology Teaching Assistant"
-            dates = "2017 - 2018"
+            dates = "Spring 2017 - Fall 2018"
             link = "https://www.utah.edu/"
             company = "University of Utah"
             details = """\
@@ -145,10 +156,10 @@ theme = "aafu"
               * Topics included: neuroendocrinology, bioenergetics and metabolism, \
                 and cardiovascular, neuromuscular and respiratory physiology. \
               """
-
+              
         [[params.experience.list]]
             position = "Exercise Physiology Lab Teaching Assistant"
-            dates = "2017 - 2018"
+            dates = "Spring 2017 - Fall 2017"
             link = "https://www.utah.edu/"
             company = "University of Utah"
             details = """\
