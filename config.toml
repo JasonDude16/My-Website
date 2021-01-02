@@ -72,7 +72,7 @@ theme = "aafu"
     [[params.showInAccordion]]
         item = "skill"
     [[params.showInAccordion]]
-        item = "certification"
+        item = "certificate"
     [[params.showInAccordion]]
         item = "hobby"
         
@@ -107,8 +107,8 @@ theme = "aafu"
               * Wrote MATLAB scripts for signal processing and inverse dynamics analysis \n \
               * Statistically analyzed large datasets in R using GLM and GLMM frameworks \n \
               * Performed data validation, cleaning, wrangling, visualizaiton, and modeling \n \
-              * Studied sport performance topics, such as: talent identification and development, \
-              game intelligence, and practice spacing and consolidaiton. \
+              * Studied sport performance topics, such as talent identification and development, \
+              game intelligence, and practice spacing and consolidation. \
               """
               
         [[params.experience.list]]
@@ -154,7 +154,7 @@ theme = "aafu"
             details = """\
               * Taught students how to use technical lab equipment for data collection \n \
               * Taught students how to perform analyses and write scientific reports \n \
-              * Topics included: Lactate and ventilatory threshold, VO2max, \
+              * Topics included: lactate and ventilatory threshold, VO2max, \
               aerobic and anaerobic power, flexibility, body composition assessments, \
               inertial load and fiber type, and hemodynamic response to exercise. \
               """
@@ -228,22 +228,22 @@ theme = "aafu"
               I created a logistic regression model for cardiovascular disease \
               classification. I processed the data, performed exploratory analysis \
               and feature engineering, assessed model assumptions and fit, and created \
-              a confusion matrix to assess accuracy on the test set. \
+              a confusion matrix to assess accuracy on the train and test sets. \
               """
         [[params.project.list]]
             title = "Statistical Analysis Guidebook"
             url = "https://github.com/JasonDude16/Statistical-Analysis-Guidebook"
             description = """\
-              As a summer project I've put together a how-to guidebook for performing \
+              As a summer project I put together a how-to guidebook for performing \
               various statistical analyses in R. I start off by explaining basic \
               programming concepts, packages and libraries, how to read and write files, \
-              and data summarizing and formatting. I then provide examples of how to create \
+              and data summarizing and formatting. I then provided examples of how to implement \
               various statistical models from the general linear model framework in R, \
               and in the summer of 2021 I plan on extending this guidebook to include \
               generalized- and generalized linear mixed model frameworks. 
               """
         [[params.project.list]]
-            title = "Interactive Alluvial with Tableau"
+            title = "Interactive Alluvial Plot with Tableau"
             url = "https://www.youtube.com/watch?v=sl_7p1Ze8o0&t=0s"
             description = """\
               I collaborated with researchers at the University of Maryland to create \
@@ -261,45 +261,52 @@ theme = "aafu"
         icon = "fas fa-cogs"
 
         [[params.skill.list]]
-            skill = "Tableau"
-            skillrating = 70
+            skill = "Python"
+            skillrating = 75
+        [[params.skill.list]]
+            skill = "MATLAB/Octave"
+            skillrating = 65
         [[params.skill.list]]
             skill = "R & RStudio"
             skillrating = 90
         [[params.skill.list]]
-            skill = "Python"
-            skillrating = 70
+            skill = "Tableau"
+            skillrating = 80 
         [[params.skill.list]]
-            skill = "MATLAB/Octave"
-            skillrating = 60
+            skill = "AWS Cloud Computing"
+            skillrating = 65
         [[params.skill.list]]
             skill = "SQL & Relational Databases"
             skillrating = 70
         [[params.skill.list]]
             skill = "Communication & Presentation"
-            skillrating = 90
+            skillrating = 95
 
-    [params.certification]
+    [params.certificate]
         title = "Certificates"
         icon = "fas fa-certificate"
         
-        [[params.certification.list]]		
-		    certification = "Learning Python | LinkedIn"
-        [[params.certification.list]]		
-		    certification = "Data Ingestion with Python | LinkedIn"
-        [[params.certification.list]]		
-		    certification = "Python Essential Training | LinkedIn"
-        [[params.certification.list]]		
-		    certification = "Python Scientific Stack | LinkedIn"
-        [[params.certification.list]]		
-		    certification = "AWS Machine Learning | LinkedIn"
-        [[params.certification.list]]		
-		    certification = "Learning Amazon Sagemaker | LinkedIn"
-        [[params.certification.list]]		
-		    certification = "Data Science Math Skills | Coursera"
-        [[params.certification.list]]		
-		    certification = "Data Science Specialization | Coursera"
-
+        [[params.certificate.list]]		
+		    certificate = "1. Learning Python | LinkedIn"
+        [[params.certificate.list]]		
+		    certificate = "2. Data Ingestion with Python | LinkedIn"
+        [[params.certificate.list]]		
+		    certificate = "3. Python Essential Training | LinkedIn"
+        [[params.certificate.list]]		
+		    certificate = "4. Python Scientific Stack | LinkedIn"
+        [[params.certificate.list]]		
+		    certificate = "5. AWS Machine Learning | LinkedIn"
+        [[params.certificate.list]]		
+		    certificate = "6. Learning Amazon Sagemaker | LinkedIn"
+        [[params.certificate.list]]		
+		    certificate = "7. Data Science Math Skills | Coursera"
+        [[params.certificate.list]]		
+		    certificate = "8. Integrating Tableau and R | Coursera"	
+        [[params.certificate.list]]		
+		    certificate = "9. R Programming: High Volume Data | LinkedIn"
+        [[params.certificate.list]]		
+		    certificate = "10. JHU Data Science Specialization (R) | Coursera"
+		    
     # Hobby section
     [params.hobby]
         title = "Hobbies"

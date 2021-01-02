@@ -1,5 +1,5 @@
 <ul class="pl-0">
   {{ range.Site.Params.hobby.list }}
-  <li class="list-unstyled mb-2">{{ .hobby }}</li>
+  <li class="mb-0 ml-4 markdownify">{{ .hobby | markdownify}}</li>
   {{ end }}
 </ul>
