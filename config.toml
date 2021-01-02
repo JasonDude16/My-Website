@@ -5,7 +5,7 @@ theme = "aafu"
 [params]
     title = "Resume"
     author = "Jason Dude"
-    description = "Website title"
+    description = "My online portfolio"
 
     [params.theme]
         # Available themes are 'light', 'dark', and 'pinkish'
@@ -48,8 +48,8 @@ theme = "aafu"
             title = "GitHub"
 	    	[[params.social.list]]
             class = "fab"
-            icon = "fa-youtube"
-            url = "https://www.youtube.com/channel/UCuo8bY6ao3xjakM8viVCBcQ/videos"
+            icon = "fas fa-book-open"
+            url = "https://jasondude16.github.io/Statistical-Analysis-Guidebook/"
             title = "YouTube"
         [[params.social.list]]
             class = "fab"
@@ -243,7 +243,7 @@ theme = "aafu"
               """
         [[params.project.list]]
             title = "Statistical Analysis Guidebook"
-            url = "https://github.com/JasonDude16/Statistical-Analysis-Guidebook"
+            url = "https://jasondude16.github.io/Statistical-Analysis-Guidebook/"
             description = """\
               As a summer project I put together a how-to guidebook for performing \
               various statistical analyses in R. I start off by explaining basic \
