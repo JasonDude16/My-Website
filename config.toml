@@ -207,6 +207,19 @@ theme = "aafu"
         icon = "fas fa-project-diagram"
 
         [[params.project.list]]
+            title = "Statistical Analysis Guidebook"
+            url = "https://jasondude16.github.io/Statistical-Analysis-Guidebook/"
+            description = """\
+              As a summer project I wrote a how-to guidebook for performing \
+              various statistical analyses in R. The book is written in R using \
+              bookdown. I start off by explaining basic programming concepts, packages \
+              and libraries, how to read and write files, and data summarizing and \
+              formatting. I then provided examples of how to implement \
+              various statistical models from the general linear model framework in R, \
+              and in the summer of 2021 I plan on extending this guidebook to include \
+              generalized- and generalized linear mixed model frameworks. \
+              """
+        [[params.project.list]]
             title = "Coursera Assignments"
             url = "https://github.com/JasonDude16/Coursera-Data-Science-Specialization"
             description = """\
@@ -240,18 +253,6 @@ theme = "aafu"
               classification. I processed the data, performed exploratory analysis \
               and feature engineering, assessed model assumptions and fit, and created \
               a confusion matrix to assess accuracy on the train and test sets. \
-              """
-        [[params.project.list]]
-            title = "Statistical Analysis Guidebook"
-            url = "https://jasondude16.github.io/Statistical-Analysis-Guidebook/"
-            description = """\
-              As a summer project I put together a how-to guidebook for performing \
-              various statistical analyses in R. I start off by explaining basic \
-              programming concepts, packages and libraries, how to read and write files, \
-              and data summarizing and formatting. I then provided examples of how to implement \
-              various statistical models from the general linear model framework in R, \
-              and in the summer of 2021 I plan on extending this guidebook to include \
-              generalized- and generalized linear mixed model frameworks. 
               """
         [[params.project.list]]
             title = "Interactive Alluvial Plot with Tableau"
