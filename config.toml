@@ -28,9 +28,9 @@ theme = "aafu"
     # Profile section
     [params.profile]
         name = "Jason Dude"
-		tagline = "Aspiring Data Analyst"
+		tagline = "Exercise Specialist"
 		location = "Salt Lake City, UT"
-        photo = "p2.jpg"
+        photo = "profile.jpg"
 
     # Section for links to social websites
     [params.social]
@@ -47,10 +47,10 @@ theme = "aafu"
             url = "https://github.com/JasonDude16"
             title = "GitHub"
 	    	[[params.social.list]]
-            class = "ai"
-            icon = "ai-google-scholar"
-            url = "#"
-            title = "Google Scholar"
+            class = "fab"
+            icon = "fa-youtube"
+            url = "https://www.youtube.com/channel/UCuo8bY6ao3xjakM8viVCBcQ/videos"
+            title = "YouTube"
         [[params.social.list]]
             class = "fab"
             icon = "fa-r-project"
@@ -79,7 +79,18 @@ theme = "aafu"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user"
-        description = "Detail-oriented problem solver studying Kinesiology with an emphasis in Cognitive and Motor Neuroscience and a specific focus on modeling and analytics. Skilled in exercise physiology, neuromechanics, research, and data/statistical analysis with various software (e.g, R, Python, Tableau, SQL)."
+        description = """\
+          Detail-oriented problem solver studying Kinesiology with an emphasis \
+          in cognitive and motor neuroscience and a focus on analytics. Skilled \
+          in exercise physiology, neuromechanics, \
+          research and writing, and statistical analysis with various software. \
+          \n \
+          \n \
+          Passionate about applying my domain \
+          knowledge of Kinesiology to produce data-driven solutions and \
+          insights, specifically in the areas of rehabilitation informatics \
+          and sport performance. \
+          """
 
     # Experience section
     [params.experience]
@@ -89,36 +100,64 @@ theme = "aafu"
         [[params.experience.list]]
             position = "Masters Student"
             dates = "Aug. 2019 - *Present*"
-            link = "#"
+            link = "https://www.utah.edu/"
             company = "University of Utah"
-            details = "Printed from desktop. Sent [emails](#). Called people using telephone. Drank water from office cooler. Ate donuts on people's birthdays."
-
+            details = """\
+              * Gained experience with IMUs, EMG, EEG, force plates, and motion capture \n \
+              * Wrote MATLAB scripts for signal processing and inverse dynamics analysis \n \
+              * Statistically analyzed large datasets in R using GLM and GLMM frameworks \n \
+              * Performed data validation, cleaning, wrangling, visualizaiton, and modeling \n \
+              * Studied sport performance topics, such as: talent identification and development, \
+              game intelligence, and practice spacing and consolidaiton. \
+              """
+              
         [[params.experience.list]]
             position = "Exercise Specialist"
             dates = "Jan. 2019 - *Present*"
-            link = "#"
-            company = "University of Utah Health Care"
-            details = "Printed from desktop. Sent [emails](#). Called people using telephone. Drank water from office cooler. Ate donuts on people's birthdays."
+            link = "https://healthcare.utah.edu/"
+            company = "University of Utah Health"
+            details = """\
+              * Designs, supervises, and evaluates exercise therapy programs \n \
+              * Performs graded exercise tests with a 12 lead ECG \n \
+              * Performs orientations and patient education sessions \n \
+              * Reviews and charts on patient's electronic medical records in Epic \
+              """
+            
         [[params.experience.list]]
-            position = "Research Assistant"
+            position = "Research Assistant—Physical Activity Research Lab"
             dates = "2018 - 2019"
-            link = "#"
+            link = "https://health.utah.edu/health-kinesiology/graduate-programs/physical-activity-well-being"
             company = "University of Utah"
-            details = "Printed from desktop. Sent [emails](#). Called people using telephone. Drank water from office cooler. Ate donuts on people's birthdays."
+            details = """\
+              * Recruitment coordinator for a physical activity research study  \n \
+              * Collected and analyzed physiological data from a metabolic cart \n  \
+              * Efficiently organized subject data using Excel spreadsheets \
+              """
 
         [[params.experience.list]]
             position = "Exercise Physiology Teaching Assistant"
-            dates = "2018 - 2019"
-            link = "#"
+            dates = "2017 - 2018"
+            link = "https://www.utah.edu/"
             company = "University of Utah"
-            details = "Printed from desktop. Sent [emails](#). Called people using telephone. Drank water from office cooler. Ate donuts on people's birthdays."
+            details = """\
+              * Created comprehenisve exam review content and held review sessions  \n \
+              * Clearly and effetively presented complex ideas to a large audience \n \
+              * Topics included: neuroendocrinology, bioenergetics and metabolism, \
+                and cardiovascular, neuromuscular and respiratory physiology. \
+              """
 
         [[params.experience.list]]
             position = "Exercise Physiology Lab Teaching Assistant"
-            dates = "2018 - 2019"
-            link = "#"
+            dates = "2017 - 2018"
+            link = "https://www.utah.edu/"
             company = "University of Utah"
-            details = "Printed from desktop. Sent [emails](#). Called people using telephone. Drank water from office cooler. Ate donuts on people's birthdays."
+            details = """\
+              * Taught students how to use technical lab equipment for data collection \n \
+              * Taught students how to perform analyses and write scientific reports \n \
+              * Topics included: Lactate and ventilatory threshold, VO2max, \
+              aerobic and anaerobic power, flexibility, body composition assessments, \
+              inertial load and fiber type, and hemodynamic response to exercise. \
+              """
 
     # Education section
     [params.education]
@@ -129,8 +168,6 @@ theme = "aafu"
             degree = "M.S. in Kinesiology"
             college = "University of Utah"
             dates = "2019 - 2021"
-            thesis_title = "Assessing the usability of People-Like-Me reference charts for rehabilitation programs"
-            thesis_link = "#"
         [[params.education.list]]
             degree = "B.S. in Kinesiology"
             college = "University of Utah"
@@ -146,10 +183,10 @@ theme = "aafu"
         types = ["Journal Articles"]
 
         [[params.publication.list]]
-            title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            authors = "F Last, F Second, P secondary"
-            date = "2018"
-            journal = "Journal of Field 52 (16), 9033-9044"
+            title = "What the Modified Rankin Isn't Ranking: Stroke Outcomes Differ by Domain"
+            authors = "R Braun, L Heitsch"
+            date = "(Accepted)"
+            journal = "Journal of Neurology"
             link = "#"
             type = "Journal Articles"
 
@@ -159,26 +196,64 @@ theme = "aafu"
         icon = "fas fa-project-diagram"
 
         [[params.project.list]]
-            title = "project"
-            url = "#"
-            description = "Biomechanics"
+            title = "Coursera Assignments"
+            url = "https://github.com/JasonDude16/Coursera-Data-Science-Specialization"
+            description = """\
+              For Coursera's Data Science Specialization by Johns Hopkins University \
+              I performed the entire data science pipeline: getting and cleaning data, \
+              exploratory analysis, statistics and machine learning, and creating data \
+              products. Assignments were completed using R and SQL. \
+              """ 
         [[params.project.list]]
-            title = "project"
-            url = "#"
-            description = "weight lifting classification"
+            title = "Biomechanical Analysis"
+            url = "https://github.com/JasonDude16/Biomechanics-Inverse-Dynamics"
+            description = """\
+              I wrote MATLAB scripts for data filtering, signal processing, \
+              and inverse dynamics analysis of force plate and motion capture data \
+              for an advanced biomechanics course at the University of Utah. \
+              """
         [[params.project.list]]
-            title = "project"
-            url = "#"
-            description = "CVD classification"
+            title = "Weight Lifting Exercise Classifcation"
+            url = "https://github.com/JasonDude16/Weight-Lifting-Classification"
+            description = """\
+              I implemented several machine learning \
+              models for classifying variations of a weight lifting exercise (a barbell curl). \
+              In the RMarkdown file I embedded a simple shiny application to assist with \
+              data visualization. \
+              """
         [[params.project.list]]
-            title = "project"
-            url = "#"
-            description = "Stats guidebook"
+            title = "Cardiovascular Disease Classification"
+            url = "https://rpubs.com/JasonDude16/698249"
+            description = """\
+              I created a logistic regression model for cardiovascular disease \
+              classification. I processed the data, performed exploratory analysis \
+              and feature engineering, assessed model assumptions and fit, and created \
+              a confusion matrix to assess accuracy on the test set. \
+              """
         [[params.project.list]]
-            title = "project"
-            url = "#"
-            description = "Shiny word prediction" 
-
+            title = "Statistical Analysis Guidebook"
+            url = "https://github.com/JasonDude16/Statistical-Analysis-Guidebook"
+            description = """\
+              As a summer project I've put together a how-to guidebook for performing \
+              various statistical analyses in R. I start off by explaining basic \
+              programming concepts, packages and libraries, how to read and write files, \
+              and data summarizing and formatting. I then provide examples of how to create \
+              various statistical models form the general linear model framework in R, \
+              and in the summer of 2021 I hope to extend this guidebook to include \
+              generalized- and generalized linear mixed model frameworks. 
+              """
+        [[params.project.list]]
+            title = "Interactive Alluvial with Tableau"
+            url = "https://www.youtube.com/watch?v=sl_7p1Ze8o0&t=0s"
+            description = """\
+              I collaborated with researchers at the University of Maryland to create \
+              an interactive alluvial plot of stroke outcomes data. The visualization \
+              was included in a research article (Braun, 2020) submitted to the Journal \
+              of Neurology titled *What the Modified Rankin Isn't Ranking: Stroke Outcomes \
+              Differ by Domain*. The link above is a YouTube video of me describing \
+              the visualization. \
+              """
+              
     # Skill section
     [params.skill]
         title = "Skills"
@@ -190,23 +265,52 @@ theme = "aafu"
             skillrating = 70
         [[params.skill.list]]
             skill = "R & RStudio"
-            skillrating = 80
+            skillrating = 90
         [[params.skill.list]]
             skill = "Python"
+            skillrating = 70
+        [[params.skill.list]]
+            skill = "MATLAB/Octave"
             skillrating = 60
         [[params.skill.list]]
-            skill = "SQL & Databases"
+            skill = "SQL & Relational Databases"
             skillrating = 70
+        [[params.skill.list]]
+            skill = "Communication & Presentation"
+            skillrating = 90
+
+    [params.certification]
+        title = "Certificates"
+        icon = "fas fa-certificate"
+        
+        [[params.certification.list]]		
+		    certification = "Learning Python | LinkedIn"
+        [[params.certification.list]]		
+		    certification = "Data Ingestion with Python | LinkedIn"
+        [[params.certification.list]]		
+		    certification = "Python Essential Training | LinkedIn"
+        [[params.certification.list]]		
+		    certification = "Python Scientific Stack | LinkedIn"
+        [[params.certification.list]]		
+		    certification = "AWS Machine Learning | LinkedIn"
+        [[params.certification.list]]		
+		    certification = "Learning Amazon Sagemaker | LinkedIn"
+        [[params.certification.list]]		
+		    certification = "Data Science Math Skills | Coursera"
+        [[params.certification.list]]		
+		    certification = "Data Science Specialization | Coursera"
 
     # Hobby section
     [params.hobby]
         title = "Hobbies"
-        icon = "fas fa-gamepad"
+        icon = "fas fa-bicycle"
 		
         [[params.hobby.list]]		
 		    hobby = "Skiing"
         [[params.hobby.list]]		
-		    hobby = "Reading"
+		    hobby = "Hiking"
+        [[params.hobby.list]]		
+		    hobby = "Gymming"
         [[params.hobby.list]]		
 		    hobby = "Mountain Biking"
         [[params.hobby.list]]		
@@ -214,17 +318,3 @@ theme = "aafu"
         [[params.hobby.list]]		
 		    hobby = "Board Games"
 		    
-    [params.certification]
-        title = "Certificates"
-        icon = "fas fa-certificate"
-        
-        [[params.certification.list]]		
-		    certification = "Skiing"
-        [[params.certification.list]]		
-		    certification = "Reading"
-        [[params.certification.list]]		
-		    certification = "Mountain Biking"
-        [[params.certification.list]]		
-		    certification = "Pickleballing"
-        [[params.certification.list]]		
-		    certification = "Board Games"
