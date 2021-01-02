@@ -3,8 +3,8 @@ languageCode = "en-us"
 theme = "aafu"
 
 [params]
-    title = "Aafu theme"
-    author = "Darshan Baral"
+    title = "Resume"
+    author = "Jason Dude"
     description = "Website title"
 
     [params.theme]
