@@ -1,6 +1,8 @@
 baseURL = "https://www.example.org/"
 languageCode = "en-us"
 theme = "aafu"
+googleAnalytics = "UA-123-45"
+
 
 [params]
     title = "Resume"
@@ -28,8 +30,8 @@ theme = "aafu"
     # Profile section
     [params.profile]
         name = "Jason Dude"
-		tagline = "Exercise Specialist"
-		location = "Salt Lake City, UT"
+		tagline = "Sr. Research Technician-Programmer"
+		location = "Lafayette, IN"
         photo = "profile.jpg"
 
     # Section for links to social websites
@@ -80,26 +82,33 @@ theme = "aafu"
         title = "About Me"
         icon = "fas fa-user"
         description = """\
-          Detail-oriented problem solver studying Kinesiology with an emphasis \
-          in cognitive and motor neuroscience and a focus on analytics. Skilled \
-          in exercise physiology, neuromechanics, \
-          research and writing, and statistical analysis with various software. \
-          \n \
-          \n \
-          Passionate about applying my domain \
-          knowledge of Kinesiology to produce data-driven solutions and \
-          insights, especially in the areas of clinical informatics \
-          and sport performance. \
+          Ambitious, tech-savvy data professional with 2+ years demonstrated \
+          experience managing end-to-end data pipelines. Comprehensive knowledge \
+          of the R language for data cleaning and manipulation, automation, \
+          database querying, and developing interactive visualizations. Possess \
+          a M.S. in Health Sciences with an emphasis in modeling and analytics.
           """
 
     # Experience section
     [params.experience]
         title = "Experience"
         icon = "fas fa-briefcase"
+        
+        [[params.experience.list]]
+            position = "Sr. Research Technician-Programmer"
+            dates = "April 2021 - *Present*"
+            link = "https://www.purdue.edu/"
+            company = "Purdue University"
+            details = """\
+              * Serves as lead analyst and technician for a highly productive research lab with an awarded $1.4M in funding \n \
+              * Developed an RShiny app for visualizing and modeling EEG data using the specparam Python module.  \n \
+              * Collaborates and communicates effectively with a diverse team of lab members, and provides training to junior staff and research assistants on data collection and data analysis best practices using R and Python. \n \
+              * Significaly reduced the occurence of file and folder errors by developing an R package to assist with file- and folder-checking processes  \n \
+              """
 
         [[params.experience.list]]
             position = "Masters Student"
-            dates = "Aug. 2019 - *Present*"
+            dates = "Aug 2019 - Aug 2021"
             link = "https://www.utah.edu/"
             company = "University of Utah"
             details = """\
@@ -113,7 +122,7 @@ theme = "aafu"
               
         [[params.experience.list]]
             position = "Exercise Specialist (Part-time)"
-            dates = "Jan. 2019 - *Present*"
+            dates = "Jan 2019 - April 2021"
             link = "https://healthcare.utah.edu/"
             company = "University of Utah Health"
             details = """\
@@ -176,11 +185,11 @@ theme = "aafu"
         icon = "fas fa-graduation-cap"
 
         [[params.education.list]]
-            degree = "M.S. in Kinesiology"
+            degree = "M.S. Kinesiology, Modeling and Analytics"
             college = "University of Utah"
             dates = "2019 - 2021"
         [[params.education.list]]
-            degree = "B.S. in Kinesiology"
+            degree = "B.S. Kinesiology, Exercise Science"
             college = "University of Utah"
             dates = "2016 - 2018"
 
@@ -194,11 +203,11 @@ theme = "aafu"
         types = ["Journal Articles"]
 
         [[params.publication.list]]
-            title = "What the Modified Rankin Isn't Ranking: Stroke Outcomes Differ by Domain"
-            authors = "R Braun, L Heitsch"
-            date = "(Accepted)"
-            journal = "Journal of Neurology"
-            link = "#"
+            title = "Domain-Specific Outcomes for Stroke Clinical Trials: What the Modified Rankin Isn't Ranking"
+            authors = "Braun, R. G., Heitsch, L., Cole, J. W., Lindgren, A. G., de Havenon, A., Dude, J. A., Lohse, K.R., Cramer, S.C., Worrall, B.B."
+            date = "2021"
+            journal = "Neurology"
+            link = "https://n.neurology.org/content/97/8/367"
             type = "Journal Articles"
 
     # Project section
@@ -232,7 +241,7 @@ theme = "aafu"
             title = "Biomechanical Analysis"
             url = "https://github.com/JasonDude16/Biomechanics-Inverse-Dynamics"
             description = """\
-              I wrote MATLAB scripts for data filtering, signal processing, \
+              Wrote MATLAB scripts for data filtering, signal processing, \
               and inverse dynamics analysis of force plate and motion capture data \
               for an advanced biomechanics course at the University of Utah. \
               """
@@ -240,7 +249,7 @@ theme = "aafu"
             title = "Weight Lifting Exercise Classifcation"
             url = "https://github.com/JasonDude16/Weight-Lifting-Classification"
             description = """\
-              I implemented several machine learning \
+              Implemented several machine learning \
               models for classifying variations of a weight lifting exercise (a barbell curl). \
               In the RMarkdown file I embedded a simple shiny application to assist with \
               data visualization. \
@@ -249,7 +258,7 @@ theme = "aafu"
             title = "Cardiovascular Disease Classification"
             url = "https://rpubs.com/JasonDude16/698249"
             description = """\
-              I created a logistic regression model for cardiovascular disease \
+              Created a logistic regression model for cardiovascular disease \
               classification. I processed the data, performed exploratory analysis \
               and feature engineering, assessed model assumptions and fit, and created \
               a confusion matrix to assess accuracy on the train and test sets. \
@@ -258,7 +267,7 @@ theme = "aafu"
             title = "Interactive Alluvial Plot with Tableau"
             url = "https://www.youtube.com/watch?v=sl_7p1Ze8o0&t=0s"
             description = """\
-              I collaborated with researchers at the University of Maryland to create \
+              Collaborated with researchers at the University of Maryland to create \
               an interactive alluvial plot of stroke outcomes data. The visualization \
               was included in a research article (Braun, 2020) submitted to the Journal \
               of Neurology titled *What the Modified Rankin Isn't Ranking: Stroke Outcomes \
@@ -273,23 +282,20 @@ theme = "aafu"
         icon = "fas fa-cogs"
 
         [[params.skill.list]]
-            skill = "Python"
-            skillrating = 75
-        [[params.skill.list]]
-            skill = "MATLAB/Octave"
-            skillrating = 65
-        [[params.skill.list]]
             skill = "R & RStudio"
             skillrating = 90
         [[params.skill.list]]
-            skill = "Tableau"
-            skillrating = 80 
+            skill = "Python"
+            skillrating = 70
         [[params.skill.list]]
-            skill = "AWS Cloud Computing"
-            skillrating = 65
+            skill = "Tableau"
+            skillrating = 65 
+        [[params.skill.list]]
+            skill = "Statistics/Analytics"
+            skillrating = 75
         [[params.skill.list]]
             skill = "SQL & Relational Databases"
-            skillrating = 70
+            skillrating = 75
         [[params.skill.list]]
             skill = "Communication & Presentation"
             skillrating = 95
