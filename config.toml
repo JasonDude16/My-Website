@@ -292,7 +292,7 @@ googleAnalytics = "UA-123-45"
             skillrating = 65 
         [[params.skill.list]]
             skill = "Statistics/Analytics"
-            skillrating = 75
+            skillrating = 80
         [[params.skill.list]]
             skill = "SQL & Relational Databases"
             skillrating = 75
