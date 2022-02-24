@@ -100,7 +100,7 @@ googleAnalytics = "UA-123-45"
             link = "https://www.purdue.edu/"
             company = "Purdue University"
             details = """\
-              * Serves as lead analyst and technician for a highly productive research lab with an awarded $1.4M in funding \n \
+              * Serves as lead analyst and technician for a highly productive research lab with an awarded $2.1M in funding \n \
               * Developed an RShiny app for visualizing and modeling EEG data using the specparam Python module.  \n \
               * Collaborates and communicates effectively with a diverse team of lab members, and provides training to junior staff and research assistants on data collection and data analysis best practices using R and Python. \n \
               * Significaly reduced the occurence of file and folder errors by developing an R package to assist with file- and folder-checking processes  \n \
@@ -289,7 +289,7 @@ googleAnalytics = "UA-123-45"
             skillrating = 70
         [[params.skill.list]]
             skill = "Tableau"
-            skillrating = 65 
+            skillrating = 70 
         [[params.skill.list]]
             skill = "Statistics/Analytics"
             skillrating = 80
